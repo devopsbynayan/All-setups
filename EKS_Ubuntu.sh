@@ -63,3 +63,23 @@ eksctl utils associate-iam-oidc-provider \
 echo "========================================"
 echo "✅ EKS setup completed successfully"
 echo "========================================"
+
+
+#eksctl delete cluster --name eks-lab --region ap-south-1
+#aws eks list-clusters --region ap-south-1
+#If something is stuck (rare) Delete CloudFormation stacks manually:
+#aws cloudformation delete-stack \--stack-name eksctl-eks-lab-cluster \--region ap-south-1
+#aws cloudformation delete-stack \--stack-name eksctl-eks-lab-nodegroup-eks-nodes \--region ap-south-1
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+
+
