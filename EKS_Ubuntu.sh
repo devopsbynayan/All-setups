@@ -43,8 +43,8 @@ eksctl create cluster \
 --name $CLUSTER_NAME \
 --region $REGION \
 --nodegroup-name eks-nodes \
---node-type t3.small \
---nodes 1 \
+--node-type t3.medium \
+--nodes 2 \
 --node-volume-size 20 \
 --managed
 
